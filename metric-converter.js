@@ -46,7 +46,7 @@ button.addEventListener("click", function(event) {
 
     let conversion_type = document.getElementsByTagName("select")[0];
 
-    let decision = conversion_type.value;
+    let decision = parseInt(conversion_type.value);
 
     let output = document.getElementById("conversion-result");
 
