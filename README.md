@@ -11,6 +11,9 @@ This project is a web-based dashboard built for WEB-115 to demonstrate interacti
 ## Imperial/Mtric Converter
     Takes inches, centimeters, meters, feet, yards, miles, and kilometers as input and converts to either previosuly listed measurements. 
 
+## Magic 8 Ball
+    ask a question and get a random response from an array.
+
 ### Logic and Pseudocode
 BEGIN
 
