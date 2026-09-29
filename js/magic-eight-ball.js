@@ -18,12 +18,15 @@ function displayAnswer() {
 
 
 document.getElementById("ball").addEventListener('mousedown', function() {
+
     const question = document.getElementById("question").value;
+
     if (question === "") {
         alert("Please enter a question!");
     } else {
         displayAnswer();
     }
+
 });
 
 document.getElementById("reset").addEventListener("click", function() {
