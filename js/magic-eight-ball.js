@@ -17,7 +17,7 @@ function displayAnswer() {
 }
 
 
-document.getElementById("ball").addEventListner('mousedown', function() {
+document.getElementById("ball").addEventListener('mousedown', function() {
     const question = document.getElementById("question").value;
     if (question === "") {
         alert("Please enter a question!");
