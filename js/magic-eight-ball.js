@@ -13,7 +13,7 @@ function displayAnswer() {
         const answer = answers[randomIndex];
         const circle = document.getElementById("circle");
         circle.innerHTML = answer;
-
+        circle.style.display = "block";
 }
 
 
