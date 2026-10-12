@@ -41,3 +41,4 @@ document.getElementById("add-task").addEventListener("click", function() {
     let listItem = document.createElement("li");
     listItem.textContent = task;
     taskList.appendChild(listItem);
+});
